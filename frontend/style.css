@@ -1,0 +1,141 @@
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+::selection {
+  background-color: rgba(0, 47, 255, 0.648);
+  transition: all 1s;
+  color: white;
+}
+
+body {
+  background-image: url(https://images.wallpaperscraft.com/image/single/gradient_color_blue_155118_1280x720.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.topnav {
+  background: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(36, 128, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 1s;
+}
+
+.topnav a:hover {
+  transition: 80ms;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.hello {
+  color: rgb(36, 128, 255);
+  text-align: center;
+  font-size: 70px;
+}
+.name {
+  color: rgb(36, 128, 255);
+  font-size: 70px;
+  text-align: center;
+}
+
+.name-sub {
+  color: rgb(36, 128, 255);
+  text-align: center;
+}
+.discord {
+  margin-top: 1cm;
+  padding-top: 1cm;
+  text-align: center;
+}
+.dc {
+  background-color: rgb(0, 0, 0); /* Green */
+  color: rgb(11, 255, 141);
+  padding: 15px 200px;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.dc:hover {
+  box-shadow: 30px 30px 30px mediumspringgreen;
+  transition: 0.3s;
+  cursor: pointer;
+  color: black;
+  background-color: mediumspringgreen;
+}
+
+.gs {
+  margin-top: 1.9cm;
+  padding-top: 1.9cm;
+  text-align: center;
+  color: rgb(36, 128, 255);
+}
+
+.stats {
+  margin-top: 1cm;
+  margin-left: 17%;
+  padding-left: 17%;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: none;
+    background-color: rgb(16, 16, 111);
+  }
+  .stats {
+    margin-top: 1cm;
+    margin-left: -85px;
+  }
+}
+
+.header {
+  color: rgb(36, 128, 255);
+  text-align: center;
+}
+
+.mcstatus {
+  text-align: center;
+  border: none;
+}
+
+.m-text {
+  color: rgb(36, 128, 255);
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.syc-logger {
+  text-align: center;
+  border: none;
+}
+
+.s-text {
+  color: rgb(36, 128, 255);
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.calendar {
+  text-align: center;
+  border: none;
+}
+
+.c-text {
+  color: rgb(36, 128, 255);
+  margin-top: 30px;
+  padding-top: 30px;
+}
