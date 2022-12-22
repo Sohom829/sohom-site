@@ -8,9 +8,8 @@
 }
 
 body {
-  background-image: url(https://images.wallpaperscraft.com/image/single/gradient_color_blue_155118_1280x720.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: none;
+  background-color: rgb(16, 16, 111);
 }
 
 .topnav {
