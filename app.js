@@ -47,6 +47,11 @@ app.post("/contact", (req, res) => {
   );
 });
 
+app.get("/about", (req, res) => {
+  res.status(200);
+  res.sendFile(__dirname + "/frontend/about.html");
+});
+
 app.use(express.static("frontend"));
 
 module.exports = app;
