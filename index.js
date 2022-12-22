@@ -9,7 +9,7 @@ app.listen(PORT, () => {
       chalk.bold.yellow("SITE MANAGER") +
       chalk.bold.red(" ] ") +
       chalk.magenta.bold(": ") +
-      chalk.bold.blueBright("SERVER STARTED ") +
+      chalk.bold.dim("SERVER STARTED ") +
       chalk.bold.cyan("LISTENING TO ") +
       chalk.magenta.bold(": ") +
       chalk.bold.underline.greenBright("http://localhost") +
