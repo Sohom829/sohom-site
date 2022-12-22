@@ -52,6 +52,10 @@ app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/frontend/about.html");
 });
 
+app.get("/friends", (req, res) => {
+  res.status(200).sendFile(__dirname + "/frontend/friends.html");
+});
+
 app.use(express.static("frontend"));
 
 module.exports = app;
